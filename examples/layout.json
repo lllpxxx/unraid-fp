@@ -1,0 +1,23 @@
+{
+    "_comment": "unRAID-FP 面板布局配置。改完执行 docker restart unRAID-FP 生效。缺失或非法字段自动回退内置默认值。",
+
+    "margin_left": 16,
+    "margin_right": 8,
+    "gap": 8,
+
+    "_comment_poster_bottom_pad": "海报底边相对卡片底部的额外下探像素。原值 30 会压进虚拟机卡片 6px，24 刚好停住。",
+    "poster_bottom_pad": 24,
+
+    "fps_static": 1.2,
+    "fps_anim": 10.0,
+
+    "color_bg": [14, 20, 34],
+    "color_clr": [40, 160, 240],
+    "color_green": [90, 235, 130],
+    "color_orange": [255, 175, 60],
+    "color_red": [255, 85, 85],
+    "color_dim": [168, 178, 198],
+    "color_gray": [178, 192, 212],
+    "color_blue": [120, 205, 255],
+    "color_cyan": [80, 215, 255]
+}
